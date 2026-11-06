@@ -1,0 +1,60 @@
+{
+    common: {
+        setting1: Value 1
+      - setting2: 200
+      - setting3: true
+      + setting3: null
+      + setting4: blah blah
+      + setting5: {
+            key5: value5
+            key6: value6
+        }
+        setting6: {
+            doge: {
+                bow: bow
+              - wow: so little
+              + wow: so much
+            }
+            key: value
+          + ops: vops
+        }
+    }
+  - flag: 1
+  + flag: true
+    group1: {
+      - baz: bas
+      + baz: bars
+        foo: bar
+      - nest: {
+            key: value
+        }
+      + nest: str
+    }
+    group2: {
+        abc: 12345
+        deep: {
+            id: {
+              - number: 45
+              + number: 50
+            }
+        }
+    }
+  + group3: {
+        deep: {
+            id: {
+                number: 45
+            }
+        }
+    }
+  - group4: {
+        old: 1
+    }
+  - items: [{"id": 1, "name": "a", "meta": {"ok": true}}]
+  + items: [{"id": 1, "name": "b", "meta": {"ok": true}}]
+  + list_added: [{"y": [1, {"z": 2}]}]
+  - list_removed: [{"x": 1}]
+  - mode: on
+  + mode: ["on", "off"]
+    same_items: [{"id": 1}, {"id": 2}]
+    tags: [1, 2, 3]
+}

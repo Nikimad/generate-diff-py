@@ -1,0 +1,16 @@
+Property 'common.setting2' was removed
+Property 'common.setting3' was updated. From true to null
+Property 'common.setting4' was added with value: 'blah blah'
+Property 'common.setting5' was added with value: [complex value]
+Property 'common.setting6.doge.wow' was updated. From 'so little' to 'so much'
+Property 'common.setting6.ops' was added with value: 'vops'
+Property 'flag' was updated. From 1 to true
+Property 'group1.baz' was updated. From 'bas' to 'bars'
+Property 'group1.nest' was updated. From [complex value] to 'str'
+Property 'group2.deep.id.number' was updated. From 45 to 50
+Property 'group3' was added with value: [complex value]
+Property 'group4' was removed
+Property 'items' was updated. From [complex value] to [complex value]
+Property 'list_added' was added with value: [complex value]
+Property 'list_removed' was removed
+Property 'mode' was updated. From 'on' to [complex value]

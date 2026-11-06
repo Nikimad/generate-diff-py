@@ -1,0 +1,45 @@
+common:
+  setting1: Value 1
+  setting3: null
+  setting4: blah blah
+  setting5:
+    key5: value5
+    key6: value6
+  setting6:
+    key: value
+    ops: vops
+    doge:
+      wow: so much
+group1:
+  baz: bars
+  foo: bar
+  nest: str
+group2:
+  abc: 12345
+  deep:
+    id:
+      number: 50
+group3:
+  deep:
+    id:
+      number: 45
+tags:
+- 1
+- 2
+- 3
+items:
+- id: 1
+  name: b
+  meta:
+    ok: true
+same_items:
+- id: 1
+- id: 2
+list_added:
+- y:
+  - 1
+  - z: 2
+mode:
+- 'on'
+- 'off'
+flag: true
